@@ -1,5 +1,5 @@
 <div id="footer">
-        <span id="footer-content">2022 &copy All Right Reserved</span>
+        <span id="footer-content">2023 &copy All Right Reserved</span>
     </div>
 
     <script>
@@ -13,6 +13,6 @@
         }
 
         const loadToolPage = () => {
-            return window.location.href = "./tool.html";
+            return window.location.href = "#";
         }
     </script>
