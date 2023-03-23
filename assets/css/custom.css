@@ -16,7 +16,7 @@
 }
 
 .logoo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-style: normal;
     font-weight: 700;
     color: #FFFFFF;
@@ -41,7 +41,7 @@
     color: white;
     padding: 0.5rem;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 10px;
     display: block;
     text-align: center;
     border: 1px solid white;
@@ -53,11 +53,19 @@
     position: absolute;
     right: 0;
     top: 0;
+    padding: 0.9rem;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 1rem;
+    text-rendering: auto;
 }
 
 /* --------------------------------------------------------------------------------------- */
@@ -107,9 +115,6 @@
 
 
 
-#org {
-    color: #F08C00;
-}
 
 .btn {
     display: flex;
@@ -127,8 +132,9 @@ button:hover {
         display: block;
     }
 
-    .navigation {
-        display: none;
+    .navigation{
+
+        display: none !important;
     }
 }
 
