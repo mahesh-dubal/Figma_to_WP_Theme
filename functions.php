@@ -14,15 +14,6 @@ add_action( 'wp_enqueue_scripts', 'mrp_enqueue_styles' );
 
 
 
-// if ( ! function_exists( 'plugin_register_nav_menu' ) ) {
-
-// 	function plugin_register_nav_menu(){
-// 		register_nav_menus( array(
-// 	    	'primary_menu' => __( 'Primary Menu', 'mrp' ),
-// 		) );
-// 	}
-// 	add_action( 'after_setup_theme', 'plugin_register_nav_menu');
-// }
 
 function custom_theme_setup() {
 	register_nav_menu('header-menu', __( 'Header Menu' ));
