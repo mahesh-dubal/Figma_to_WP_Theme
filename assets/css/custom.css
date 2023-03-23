@@ -73,7 +73,10 @@
 
 /* ----------------------------------------------------- */
 
+.logo a {
+    text-decoration: none;
 
+}
 .navigation {
     display: flex;
     align-items: center;
@@ -112,7 +115,6 @@
     color: #FFFFFF; 
 
 }
-
 
 
 
