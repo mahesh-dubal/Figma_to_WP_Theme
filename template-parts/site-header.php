@@ -3,7 +3,7 @@
     <!-- Top Navigation Menu -->
     <div class="topnav">
 
-        <a href="#" class="logoo" id="org">
+        <a href="<?php get_home_url() ?>" class="logoo" id="org">
         <?php if (has_custom_logo()) : ?>
             <div class="site-logo"><?php the_custom_logo(); ?></div>
         <?php else : ?>
@@ -26,10 +26,11 @@
     </div>
 </div>
 
-<header class="navigation">
+
+<div class="navigation">
 
     <!-- Custom logo -->
-    <a href="#" class="logo" id="org">
+    <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="logo" id="org">
         <?php if (has_custom_logo()) : ?>
             <div class="site-logo"><?php the_custom_logo(); ?></div>
         <?php else : ?>
@@ -45,4 +46,4 @@
         )); ?>
     </div>
 
-</header>
+    </div>
