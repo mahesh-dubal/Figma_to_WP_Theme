@@ -16,6 +16,8 @@ add_action( 'wp_enqueue_scripts', 'mrp_enqueue_styles' );
 
 
 function custom_theme_setup() {
-	register_nav_menu('header-menu', __( 'Header Menu' ));
+	register_nav_menus(array(
+			'primary_menu' => __('Primary Menu', 'mrp')
+			));
 }
 add_action( 'after_setup_theme', 'custom_theme_setup');
